@@ -1,1 +1,66 @@
-/* Denna fil skall innehålla din CSS kod */
+#wrapper{
+width: 100%;
+    min-height: 95vh;
+    border: 1px solid;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-areas:
+        "hd hd"
+        "nv nv"
+        's1 s1'
+        "f1 f2";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+#hd{
+    background-color: rgb(247, 229, 212);
+    grid-area: hd;
+    text-align: center;
+    align-content: center;
+}
+
+#nv {
+    background-color: rgb(247, 229, 212);
+    grid-area: nv;
+}
+
+#s1{
+    grid-area: s1;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#c1 { grid-area: c1;
+    background: rgb(247, 229, 212);
+    width: 175px;
+ }
+
+#c2 { grid-area: c2;
+     background: rgb(247, 229, 212) ;
+     width: 175px;
+    }
+
+#c3 { grid-area: c3; 
+    background:rgb(247, 229, 212);
+    width: 175px;
+     }
+
+
+
+#f1 {
+    background-color:rgb(247, 229, 212);
+    grid-area: f1;
+
+}
+
+#f2 {
+    background-color: rgb(247, 229, 212);
+    grid-area: f2;
+
+}
