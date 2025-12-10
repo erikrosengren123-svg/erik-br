@@ -14,41 +14,60 @@ width: 100%;
 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-
 }
 
 #hd{
     background-color: rgb(247, 229, 212);
     grid-area: hd;
     text-align: center;
+    color: rgb(247, 229, 212);
+    font-size: 36px;
+    
     align-content: center;
+    background-image: url('https://i.ytimg.com/vi/h-PfBxoMq_4/maxresdefault.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hd img {
+    max-width: 75px;
+    height: auto;
+    order: -1;
 }
 
 #nv {
     background-color: rgb(247, 229, 212);
     grid-area: nv;
+    display: grid;
+    text-align: center;
 }
 
 #s1{
     grid-area: s1;
     display: flex;
+    background-color: rgb(247, 229, 212);
     justify-content: space-evenly;
-
+    justify-content: space-around;
 }
 
 #c1 { grid-area: c1;
     background: rgb(247, 229, 212);
-    width: 175px;
- }
+
+}
 
 #c2 { grid-area: c2;
      background: rgb(247, 229, 212) ;
-     width: 175px;
+
     }
 
 #c3 { grid-area: c3; 
     background:rgb(247, 229, 212);
-    width: 175px;
+
      }
 
 
