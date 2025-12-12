@@ -7,7 +7,7 @@ body{
     min-height: 95vh;
     border: 1px solid;
     margin: auto;
-
+    background-color: rgb(181 139 99);
     display: grid;
 
     grid-template-areas:
@@ -21,7 +21,6 @@ body{
 }
 
 #hd{
-    background-color: rgb(181, 139, 99);
     grid-area: hd;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -45,7 +44,6 @@ body{
 }
 
 #nv {
-    background-color: rgb(181, 139, 99);
     grid-area: nv;
     display: grid;
     text-align: center;
@@ -55,43 +53,36 @@ body{
 #s1{
     grid-area: s1;
     display: flex;
-    background-color: rgb(181, 139, 99);
     justify-content: space-evenly;
     justify-content: space-around;
 }
 
 #s1 img {
-max-width: auto;
-height: 250px;
+    max-width: auto;
+    height: 250px;
+    border-radius: 15px;
 }
 
 #c1 { grid-area: c1;
-    background: rgb(181, 139, 99);
 }
 
 #c2 { 
     grid-area: c2;
-    background: rgb(181, 139, 99) ;
-     
 }
 
 #c3 { grid-area: c3; 
-    background:rgb(181, 139, 99);
-
 }
 
 
 
 
 #f1 {
-    background-color:rgb(181, 139, 99);
     grid-area: f1;
     text-align: center;
     font-size: 25px;
 }
 
 #f2 {
-    background-color: rgb(181, 139, 99);
     grid-area: f2;
     text-align: center;
     font-size: 25px;
