@@ -3,7 +3,7 @@ body{
 }
 
 #wrapper{
-width: 100%;
+    width: 100%;
     min-height: 95vh;
     border: 1px solid;
     margin: auto;
@@ -21,7 +21,7 @@ width: 100%;
 }
 
 #hd{
-    background-color: rgb(247, 229, 212);
+    background-color: rgb(181, 139, 99);
     grid-area: hd;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -45,7 +45,7 @@ width: 100%;
 }
 
 #nv {
-    background-color: rgb(247, 229, 212);
+    background-color: rgb(181, 139, 99);
     grid-area: nv;
     display: grid;
     text-align: center;
@@ -55,42 +55,43 @@ width: 100%;
 #s1{
     grid-area: s1;
     display: flex;
-    background-color: rgb(247, 229, 212);
+    background-color: rgb(181, 139, 99);
     justify-content: space-evenly;
     justify-content: space-around;
 }
 
 #s1 img {
-    max-width: auto;
-    height: 150px;
+max-width: auto;
+height: 250px;
 }
 
 #c1 { grid-area: c1;
-    background: rgb(247, 229, 212);height: auto;
+    background: rgb(181, 139, 99);
 }
 
-#c2 { grid-area: c2;
-     background: rgb(247, 229, 212) ;
+#c2 { 
+    grid-area: c2;
+    background: rgb(181, 139, 99) ;
      
-    }
+}
 
 #c3 { grid-area: c3; 
-    background:rgb(247, 229, 212);
+    background:rgb(181, 139, 99);
 
-     }
+}
 
 
 
 
 #f1 {
-    background-color:rgb(247, 229, 212);
+    background-color:rgb(181, 139, 99);
     grid-area: f1;
     text-align: center;
     font-size: 25px;
 }
 
 #f2 {
-    background-color: rgb(247, 229, 212);
+    background-color: rgb(181, 139, 99);
     grid-area: f2;
     text-align: center;
     font-size: 25px;
